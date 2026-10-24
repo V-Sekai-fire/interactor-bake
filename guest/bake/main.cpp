@@ -1,4 +1,4 @@
-// bake.elf: RFD 2284's bake stage, the CPU part: triangles a cutout or
+// bake.elf: RFD66606-2284's bake stage, the CPU part: triangles a cutout or
 // blended material would hide, and one atlas per mesh. The guest reads only
 // its arguments and returns arrays; it has no file, socket or host-object access.
 #include <api.hpp>

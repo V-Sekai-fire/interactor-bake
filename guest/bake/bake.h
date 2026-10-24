@@ -1,6 +1,6 @@
 // bake.elf's core: what a mobile avatar variant's texture side needs from
 // the host's materials, host-neutral. Plain C++ with no sandbox API, so it
-// runs in any godot-sandbox host or natively. RFD 2284's bake stage, CPU part.
+// runs in any godot-sandbox host or natively. RFD66606-2284's bake stage, CPU part.
 #pragma once
 #include <cstddef>
 #include <cstdint>
