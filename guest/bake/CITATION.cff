@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: If you use this guest, cite the guest API it builds against.
 title: bake.elf -- alpha culling and texture atlases for avatar meshes (sandbox guest)
 abstract: >-
-  The CPU part of RFD 2284's bake stage. The host passes UVs, indices and
+  The CPU part of RFD66606-2284's bake stage. The host passes UVs, indices and
   RGBA8 pixels; the guest returns the triangles a cutout or blended material
   would hide, and one shelf-packed atlas per mesh with the UVs moved into it.
   The guest has no filesystem, sockets or host objects. Split out of

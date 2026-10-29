@@ -1,4 +1,4 @@
-# bake.elf: RFD 2284's bake stage, the CPU part, as a godot-sandbox guest.
+# bake.elf: RFD66606-2284's bake stage, the CPU part, as a godot-sandbox guest.
 # Standalone; transport-meshing-pen's host build composes it the same way.
 cmake_minimum_required(VERSION 3.16)
 project(bake_guest C CXX)
